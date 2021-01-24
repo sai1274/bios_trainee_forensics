@@ -1,0 +1,12 @@
+In this question we were given with a png
+When you look at the challenge description : Look up in the BLUE sky ! It's a bird, it's a PLANE or wait .. It's both ? But how ?
+
+there he is not sure the it's a bird or plane. He is not sure about the thing because he can't see them.
+
+So I thought that the flag might be hidden in the png.
+When i opened the image i can't see anything except a mono colour so i thought the flag might be hidden so i used
+online png analyser then i found this link:
+http://fotoforensics.com
+after uploading the image in the link in the hidden pixel i got the flag:
+inctfj{th3_fl4g_wa5_liter4lly_ins1de_4_m3me}
+

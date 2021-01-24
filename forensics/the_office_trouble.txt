@@ -1,0 +1,11 @@
+In the question you were given with a zip it cointains an image which cointains the client information.
+But the thing is the image is password protected. So we need to do brute force attack i had rockyou.txt i used
+it as dictionary.
+Use fcrackzip to do brute force attack and then use the following command:
+fcrackzip -D -v -p -u rockyou.txt av_b62152ea-cc85-43ab-8af1-f39915814327.zip
+
+and then we will get the password: perfectlypunk.
+
+and then after entering the password we will get access to the .jpg file there we can find the flag:
+
+inctfj{dw1ght_1s_cr4zy_bu7_awes0me}

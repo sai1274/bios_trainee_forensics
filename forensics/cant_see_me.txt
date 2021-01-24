@@ -1,0 +1,12 @@
+In question you were given with a image with format .PNG  whose magical number is 89 50 4E 47 
+When we are trying to open the image it will show you an error so you need to rectify it.
+with the help of ghex editor we can edit the magical number after changing the magical number to png
+magical number still you can open it because it is caused by the chunk errors.
+we can't fing them all manually so we are gonna use the below command :
+
+	"pngcheck -v image.png"
+
+on running this command it will show you the errors you need to rectify it manually at last we can 
+open the image and there we can see the flag: 
+
+inctfj{WH4T_ar3_pNgCHUnkS?}  

@@ -1,0 +1,18 @@
+In the question you were given with a png file.
+we have two hints we'll use hint 2. we will use strings:
+	
+	"strings imsge.png"
+
+The command dumps all the readable characters in the png. At the end we can see a paste bin link
+on going through the link we can get an encrypted flag: 
+	
+	"ZmxhZ3tNMTVzSTBOX2FDYzBNUEwxNWgzRH0="	
+
+Since we all are readable characters and there is no key try using various online decoder.
+when i tried using base64 online decoder i got the flag:
+
+	"flag{M15sI0N_aCc0MPL15h3D}"
+
+we can decode base64 in out terminal using the command:
+
+	"string".decode('base64')

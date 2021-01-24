@@ -1,0 +1,13 @@
+In the tags were given as Steganography which means the msg will be hidden but we can't see it.
+since the encoded msg is in .txt we can use stegsnow 
+for installing this use the command : sudo apt install stegsnow
+and for more information use the command : stegsnow -h | stegsnow --help | man stegsnow
+
+"download the given file and the use the command 
+$ stegsnow -C <file_location>
+if it's a password protected we need to use -p and then enter the password
+here -C refers to both compress,extract the information. 
+
+And the you will get the flag which is in encrypted form since its in normal english i though it 
+might be caesar cipher and tried an online decoder to solve it. And tried with various shifts until
+i get in the format : FLAG{______} 
